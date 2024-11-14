@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+    background-color: #FFFFFF;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+
+/* HEADER */
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 1280px;
+    padding: 20px 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1000;
+    transition: all 0.5s ease-in-out;
+}
+
+#header.shrink {
+    background: linear-gradient(180deg, rgba(0, 209, 213, 1) 0%, rgba(0, 209, 213, 0.88) 12%, rgba(0, 209, 213, 0) 100%);
+}
+
+#header .container {
+    flex: 1;
+}
+
+#header .container.hamburguesa {
+    display: flex;
+    justify-content: start;
+}
+
+#header .container.logo {
+    display: flex;
+    justify-content: center;
+}
+
+#header .container.comprar {
+    display: flex;
+    justify-content: end;
+}
+
+#header .container .logoimg {
+    transition: all 0.5s ease-in-out;
+    height: 320px;
+}
+
+#header.shrink .logoimg {
+    height: 86px;
+}
+
+#header button {
+    background-color: #83C252;
+    height: 66px;
+    width: 200px;
+    border: 8px solid #FFFFFF;
+    border-radius: 111px;
+    box-shadow: 4px 5px #02187E;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 94.5%;
+    letter-spacing: 11%;
+    color: #FFFFFF;
+}
+
+#header .hamburguesa {
+    cursor: pointer;
+    height: 34px;
+}
+
+#header .hamburguesa .items {
+    display: flex;
+    flex-direction: column;
+}
+
+#header .hamburguesa .items span {
+    background-color: #F39E46;
+    height: 11px;
+    width: 42px;
+    border: 4px solid #FFFFFF;
+    border-radius: 111px;
+    box-shadow: 4px 5px #02187E;
+    transition: all 200ms ease;
+}
+
+#header .button {
+    width: 200px;
+    height: 40px;
+    background-color: #9D2121;
+}
+
+
+/* SECTION HERO */
+
+
+#section-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #a3e0f2; 
+}
+
+#arbol-1 {
+    position: absolute;
+    top: 20%; /* Ajustar según la posición deseada */
+    left: 5%; /* Ajustar según la posición deseada */
+    z-index: 1;
+}
+
+#arbol-2 {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    z-index: 1;
+}
+
+#arbol-3 {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    z-index: 1;
+}
+
+#planta-1, #planta-2, #planta-3, #planta-4 {
+    position: absolute;
+    bottom: 5%; /* Ajustar según la posición deseada */
+    z-index: 2;
+}
+
+#planta-1 {
+    left: 10%;
+}
+
+#planta-2 {
+    left: 30%;
+}
+
+#planta-3 {
+    left: 70%;
+}
+
+#planta-4 {
+    left: 90%;
+}
+
+#piedra-1, #piedra-2, #piedra-3, #piedra-4 {
+    position: absolute;
+    bottom: 10%; /* Ajustar según la posición deseada */
+    z-index: 3;
+}
+
+#piedra-1 {
+    left: 15%;
+}
+
+#piedra-2 {
+    left: 45%;
+}
+
+#piedra-3 {
+    left: 75%;
+}
+
+#piedra-4 {
+    left: 85%;
+}
+
+#personaje-1-section1 {
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    z-index: 4;
+}
+
+#personaje-2-section1 {
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    z-index: 4;
+}
+
+#personaje-3-section1 {
+    position: absolute;
+    bottom: 15%;
+    left: 60%;
+    z-index: 4;
+}
+
+#sombra-personaje-1, #sombra-personaje-2, #sombra-personaje-3 {
+    position: absolute;
+    bottom: 10%;
+    z-index: 3;
+    opacity: 0.5; /* Ajustar opacidad para la sombra */
+}
+
+#sombra-personaje-1 {
+    left: 20%;
+}
+
+#sombra-personaje-2 {
+    left: 40%;
+}
+
+#sombra-personaje-3 {
+    left: 60%;
+}
+
+
