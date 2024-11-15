@@ -432,3 +432,63 @@ body {
     width: 300px;
     margin: 40px;
 }
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #5E5E5D;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.plataformas {
+    top: 14185px;
+    background: #242424;
+    padding: 0px 30px; 
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.plataformas img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+p .copyright {
+    font-size: 20px;
+}
+
+
+.container-footer {
+    height: 560px;
+    padding-left: 100px;
+    width: 70%;
+}
+
+footer .copyright {
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.social {
+    width: 250px; 
+    height: auto;
+}
+
+
