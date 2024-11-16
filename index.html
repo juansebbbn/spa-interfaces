@@ -202,17 +202,18 @@
         <!-- SECCION 5 -->
 
         <section id="section-5">
-            <img src="imagenes/section5/fondo-section5.svg" id="background" />
-            <div class="container">
-                <img src="imagenes/section5/personaje-section5.png" id="personaje" />
-                <h2 id="titulo">Mira el video y descubre el sorprendente mundo de los NumberBlocks!</h2>
-                <div id="video-container">
-                    <iframe id="iframe-demo"
-                            src="https://www.youtube.com/embed/0YKa9DQYdRg?si=6LRcFilQ8qrs2hE5&autoplay=1&mute=1"
-                            title="NumberBlocks Demo" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="containerSection5">
+                <div class="titulo_video">
+                    <h2 id="titulo">Mira el video y descubre el sorprendente mundo de los NumberBlocks!</h2>
+                    <div id="video-container">
+                        <iframe id="iframe-demo"
+                                src="https://www.youtube.com/embed/0YKa9DQYdRg?si=6LRcFilQ8qrs2hE5&autoplay=1&mute=1"
+                                title="NumberBlocks Demo" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
+                <img src="imagenes/section5/personaje-section5.png" class="personajeSection5" />
             </div>
         </section>
 
@@ -221,9 +222,9 @@
         <section id="section-6">
             <model-viewer id="character-3d-placeholder" src="models/one.glb" alt="A 3D model" camera-controls auto-rotate
                           poster="static/parallax/section-6-3d-placeholder.png" shadow-intensity="1"></model-viewer>
-            <div class="container">
-                <h2 id="titulo">¡Experimenta Efectos 3D Asombrosos en NumberBlocks: Una Aventura Matemática Inmersiva!</h2>
-                <p id="descripcion">En NumberBlocks, la aventura no solo está en el aprendizaje, ¡sino también en la
+            <div class="containerSeccion6">
+                <h2>¡Experimenta Efectos 3D Asombrosos en NumberBlocks: Una Aventura Matemática Inmersiva!</h2>
+                <p>En NumberBlocks, la aventura no solo está en el aprendizaje, ¡sino también en la
                     experiencia visual! Disfruta de efectos 3D asombrosos que dan vida a cada número y desafío, haciendo que
                     las matemáticas cobren una nueva dimensión. A medida que los niños interactúan con los personajes y los
                     bloques, verán cómo sus acciones tienen un impacto real en el entorno, creando un aprendizaje dinámico y
@@ -255,39 +256,38 @@
 
         <!-- SECCION 8 -->
 
-        <section id="section-8">
-            <div class="container">
-                <h2 id="titulo">¿Quieres ser el primero en enterarse de todas las novedades?</h2>
+     
+        <section class="section-8">
+            <div class="container-section8">
+                <h2 class="titulo">¿Quieres ser el primero en enterarse de todas las novedades?</h2>
                 <div class="subscribe">
                     <input type="text" placeholder="Ingresa aquí tu correo">
                     <button>SUSCRIBIRSE</button>
                 </div>
-                <p id="terminos">Al inscribirse en nuestra lista de correo, nos autoriza a ponernos en contacto con
+                <p class="terminos">Al inscribirse en nuestra lista de correo, nos autoriza a ponernos en contacto con
                     usted para enviarle ofertas y actualizaciones de marketing por correo electrónico, y también acepta
                     nuestra <a href="#">Política de privacidad</a> y las <a href="#">Condiciones del servicio.</a></p>
-                <img src="imagenes/section8/teen-section8.png" id="teen" />
+                <img src="imagenes/section8/teen-section8.png" class="teen" />
             </div>
+            
+            <img src="imagenes/section8/pasto-section8.png" class="background-pasto" />
+            <img src="imagenes/section8/nube-section8.png" class="cloud-1" />
+            <img src="imagenes/section8/nube-section8.png" class="cloud-2" />
+            <img src="imagenes/section8/nube-section8.png" class="cloud-3" />
 
-            <img src="imagenes/section8/fondo-section8.png" id="background-color" />
-            <img src="imagenes/section8/pasto-section8.png" id="background-pasto" />
-            <img src="imagenes/section8/nube-section8.png" id="cloud-1" />
-            <img src="imagenes/section8/nube-section8.png" id="cloud-2" />
-            <img src="imagenes/section8/nube-section8.png" id="cloud-3" />
-
-            <img src="imagenes/section8/personaje1-section8.png" id="personaje-1" />
-            <img src="imagenes/section8/personaje2-section8.png" id="personaje-2" />
-            <img src="imagenes/section8/personaje3-section8.png" id="personaje-3" />
-
+            <img src="imagenes/section8/personaje1-section8.png" class="personaje-1" />
+            <img src="imagenes/section8/personaje3-section8.png" class="personaje-2" />
+            <img src="imagenes/section8/personaje2-section8.png" class="personaje-3" />
         </section>
 
         <!-- FOOTER -->
 
         <footer>
             <div class="plataformas">
-                <img src="imagenes/section8/footer-section8.png" />
+                <img class="ps5" src="imagenes/section8/footer-section8.png" />
             </div>
-            <div class="container">
-                <p id="copyright">©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office.
+            <div class="container-footer">
+                <p class="copyright">©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office.
                     SEGA, the SEGA logo and SONIC SUPERSTARS are either registered trademarks or trademarks of SEGA
                     CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their
                     respective owners.©2023 The LEGO Group. LEGO, the LEGO logo, the Minifigure, and the Brick and Knob
@@ -302,7 +302,7 @@
                     </br></br>
                     <a href="#">COOKIE POLICY</a> <a href="#">PRIVACY POLICY</a>
                 </p>
-                <img src="imagenes/section8/footer-social.png" id="social" />
+                <img src="imagenes/section8/footer-social.png" class="social" />
             </div>
         </footer>
 
