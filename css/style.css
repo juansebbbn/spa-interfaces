@@ -102,6 +102,13 @@ body {
     background-color: #9D2121;
 }
 
+#header.shrink {
+    background: linear-gradient(180deg, rgba(0, 209, 213, 1) 0%, rgba(0, 209, 213, 0.88) 12%, rgba(0, 209, 213, 0) 100%);
+}
+
+#header.shrink .logoimg {
+    height: 86px; 
+}
 
 /* SECTION HERO */
 
@@ -426,6 +433,27 @@ body {
     margin: 40px;
 }
 
+
+/* SECTION 7 */
+
+#section-7 {
+    margin: 50px 0;
+}
+
+#section-7 .container-section7 {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1296px;
+    height: 729px;
+    gap: 0; 
+}
+
+.card {
+    width: 200px;  
+    height: auto;
+}
 
 /* SECTION 8 */
 
